@@ -1,24 +1,25 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
+REST API using Ruby on Rails
 
 * Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+3.2.2
+```
+* Rails version
+```
+7.0.6
+```
+* Database
+```
+name : db_test_ruby_api
+```
+* How to migrate
+```
+rails db:migrate
+```
+* Endpoint
+```
+http://localhost:3000/posts
+http://localhost:3000/users
+```
